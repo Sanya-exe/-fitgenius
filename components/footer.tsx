@@ -4,9 +4,9 @@ export function Footer() {
   return (
     <footer className="border-t border-purple-500/30 bg-slate-900 px-4 py-16 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
-        {/* Footer Grid - 4 columns on desktop, stacked on mobile */}
+        
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
-          {/* Column 1: Brand */}
+          
           <div>
             <div className="mb-4 flex items-center gap-2">
               <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-purple-600 to-pink-600">
@@ -19,7 +19,6 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Column 2: Product */}
           <div>
             <h4 className="mb-4 font-semibold text-white">Product</h4>
             <ul className="space-y-3">
@@ -41,7 +40,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Column 3: Company */}
           <div>
             <h4 className="mb-4 font-semibold text-white">Company</h4>
             <ul className="space-y-3">
@@ -63,7 +61,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Column 4: Support */}
           <div>
             <h4 className="mb-4 font-semibold text-white">Support</h4>
             <ul className="space-y-3">
@@ -86,7 +83,6 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Bottom Copyright Section */}
         <div className="mt-12 border-t border-white/10 pt-8 text-center">
           <p className="text-sm text-gray-400">
             © 2025 FitGenius. All rights reserved. Built with Next.js & Tailwind CSS.
